@@ -34,9 +34,10 @@
             // 
             // refreshButton
             // 
-            this.refreshButton.Location = new System.Drawing.Point(177, 221);
+            this.refreshButton.Location = new System.Drawing.Point(236, 272);
+            this.refreshButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.refreshButton.Name = "refreshButton";
-            this.refreshButton.Size = new System.Drawing.Size(95, 29);
+            this.refreshButton.Size = new System.Drawing.Size(127, 36);
             this.refreshButton.TabIndex = 0;
             this.refreshButton.Text = "Refresh";
             this.refreshButton.UseVisualStyleBackColor = true;
@@ -45,18 +46,22 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(16, 15);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(159, 238);
+            this.listBox1.Size = new System.Drawing.Size(211, 292);
             this.listBox1.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(379, 322);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.refreshButton);
+            this.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Who?";
             this.Load += new System.EventHandler(this.Form1_Load);
